@@ -18,6 +18,15 @@ shohi-kan
 
 # DEMO
 
+※現在製作中ですので随時スタイル等変更していきます。
+
+## 新規登録画面
+<img width="783" alt="登録画面" src="https://user-images.githubusercontent.com/78348935/112430067-fb841600-8d80-11eb-9930-b7b9a2dfa5ae.png">
+
+
+## ログイン画面
+<img width="701" alt="ログイン画面" src="https://user-images.githubusercontent.com/78348935/112430134-0d65b900-8d81-11eb-9894-6ec1e1dcb3f6.png">
+
 
 # 実装予定の内容
 ・User管理機能
