@@ -30,3 +30,29 @@ shohi-kan
 ・SNS認証
 
 # DB設計
+
+## users テーブル
+
+| Column             | Type   | Options                   |
+| ------------------ | ------ | ------------------------- |
+| nickname           | string | null: false               |
+| email              | string | null: false, unique: true |
+| encrypted_password | string | null: false               |
+
+
+### Association
+
+- has_many :items
+
+## items テーブル
+
+| Column      | Type       | Options                       |
+| ----------- | ---------- | ----------------------------- |
+| name        | string     | null: false                   |
+| dead_line   | text       | null: false                   |
+| comment     | integer    | null: false                   |
+
+
+### Association
+
+- belongs_to :user
